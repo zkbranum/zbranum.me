@@ -1,11 +1,16 @@
-  .brand-name {
-   color: rgb(0,154,200);
-   display: flex;
-   align-items: center;
+.heading-info {
+	margin-left: 100px;
+	color: rgb(0,154,200);
+}	
+
+ .brand-name {
+	display: flex;
+	align-items: center;
+	margin: 0;
 }
 
   .brand-slogan {
-   color: rgb(0,154,200);
-   display: flex;
-   align-items: center;
+	display: flex;
+	align-items: center;
+	margin: 0;
 }

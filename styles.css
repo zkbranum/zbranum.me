@@ -1,4 +1,10 @@
-  .heading-info {
+  .brand-name {
+   color: rgb(0,154,200);
+   display: flex;
+   align-items: center;
+}
+
+  .brand-slogan {
    color: rgb(0,154,200);
    display: flex;
    align-items: center;

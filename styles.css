@@ -4,13 +4,9 @@
 }	
 
  .brand-name {
-	display: flex;
-	align-items: center;
 	margin: 0;
 }
 
   .brand-slogan {
-	display: flex;
-	align-items: center;
 	margin: 0;
 }

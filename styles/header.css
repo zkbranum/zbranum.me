@@ -1,0 +1,121 @@
+.heading-info {
+	height: 55px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: solid;
+	border-color: green;
+	border-width: 2px;
+	height: 100px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+}
+
+.left-section {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width: 400px;
+flex-shrink:0;
+}
+
+.brand-name {
+	color: rgb(46,106,107);
+	font-family: 'Lobster', cursive;
+	font-size: 38px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-bottom: 2px;
+}
+
+.brand-slogan {
+	color: rgb(83,192,194);
+	font-family: 'Indie Flower', cursive;
+	font-size: 24px;
+	margin-left: 100px;
+	margin-top: 0px;
+	flex-shrink:0;
+}
+
+.right-section {
+display: flex;
+justify-content: right;
+align-items: center;
+padding-right: 10px;
+}
+
+.right-section ul {
+   display:flex;
+   justify-content:space-between;
+   list-style:none;
+   font-size: 20px;
+   font-family: 'Indie Flower', cursive;
+   background-color: white;
+   margin: 0;
+   padding: 0;
+}
+
+.right-section a {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	transition: 0.15s;
+}
+
+.right-section a:hover {
+	color: white;
+}
+
+.menu-home {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-right: 10px;
+}
+.menu-bio {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-right: 10px;
+}
+.menu-portofolio {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-right: 10px;
+}
+.menu-projects {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-right: 10px;
+}
+.menu-contact {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-right: 10px;
+}
+
+.menu-home:hover, .menu-bio:hover, .menu-portofolio:hover, .menu-projects:hover, .menu-contact:hover {
+	background-color: black;
+	color: white;
+}
+
+.menu-home:active, .menu-bio:active, .menu-portofolio:active, .menu-projects:active, .menu-contact:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}

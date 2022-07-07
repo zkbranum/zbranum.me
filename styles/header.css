@@ -28,14 +28,14 @@ flex-shrink:0;
 	font-family: 'Lobster', cursive;
 	font-size: 38px;
 	margin-top: 30px;
-	margin-left: 50px;
+	margin-left: 20px;
 	margin-bottom: 2px;
 }
 
 .brand-slogan {
 	color: rgb(83,192,194);
 	margin-top: 0;
-	margin-left: 95px;
+	margin-left: 65px;
 	flex-shrink:0;
 }
 /* Nav Menu */
@@ -60,6 +60,9 @@ padding-right: 10px;
 	cursor: pointer;
 	transition: 0.15s;
 }
+.right-section p {
+	margin-top: 2px;
+}
 
 .menu-home, .menu-bio, .menu-portofolio, .menu-projects, .menu-contact {
 	padding-left: 10px;
@@ -67,6 +70,7 @@ padding-right: 10px;
 	border: 2px solid rgb(100,100,100);
 	background-color: white;
 	margin-right: 10px;
+	height: 30px;
 }
 
 

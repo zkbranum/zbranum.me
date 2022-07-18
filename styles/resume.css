@@ -1,0 +1,57 @@
+.resume-main {
+	margin: 120px 100px 50px 100px;
+	Background-color: rgb(64,149,150);
+	box-shadow: 6px 10px gray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+}
+
+.resume-title{
+	margin-top: 40px;
+	font-size: 24px;
+}
+
+.objective{
+	text-align: center;
+}
+
+h3 {
+	margin-top: 50px;
+		margin-bottom: 5px;
+		font-size: 24px;
+		font-family:'Lobster', cursive;
+}
+
+.resume-skills {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	row-gap: 10px;
+	justify-content: center;
+	border: 5px dashed black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 20px;
+}
+
+.resume-experience {
+	border: 5px dashed black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 20px;
+	text-align: left;
+}
+
+h4 {
+	font-family: 'Russo One', sans-serif;
+}
+
+.resume-edu-cert {
+	border: 5px dashed black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0 20px;
+}

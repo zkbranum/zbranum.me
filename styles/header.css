@@ -64,7 +64,7 @@ padding-right: 10px;
 	margin-top: 2px;
 }
 
-.menu-home, .menu-bio, .menu-portofolio, .menu-projects, .menu-contact {
+.menu-home, .menu-resume, .menu-portofolio, .menu-projects, .menu-contact {
 	padding-left: 10px;
 	padding-right: 10px;
 	border: 2px solid rgb(100,100,100);
@@ -74,12 +74,12 @@ padding-right: 10px;
 }
 
 
-.menu-home:hover, .menu-bio:hover, .menu-portofolio:hover, .menu-projects:hover, .menu-contact:hover {
+.menu-home:hover, .menu-resume:hover, .menu-portofolio:hover, .menu-projects:hover, .menu-contact:hover {
 	background-color: rgb(100,100,100);
 	color: white;
 }
 
-.menu-home:active, .menu-bio:active, .menu-portofolio:active, .menu-projects:active, .menu-contact:active {
+.menu-home:active, .menu-resume:active, .menu-portofolio:active, .menu-projects:active, .menu-contact:active {
 	box-shadow: 0 5px gray;
 	transform: translateY(4px);
 	}

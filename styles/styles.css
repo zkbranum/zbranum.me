@@ -1,4 +1,14 @@
 body {
 	background-color: black;
-	height:3000px;
+}
+
+.main-info {
+	margin: 120px 100px 50px 100px;
+	Background-color: rgb(64,149,150);
+	box-shadow: 6px 10px gray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 1000px;
 }

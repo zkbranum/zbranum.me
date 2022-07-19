@@ -12,7 +12,10 @@
 	height: 400px;
 }
 
-
+.contact-heading {
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+}
 
 .contact-main li {
    display:flex;
@@ -51,4 +54,8 @@
 .email-contact:active{
 	box-shadow: 0 5px gray;
 	transform: translateY(4px);
-	}
+}
+	
+.address-info {
+	margin-top: 20px;
+}	

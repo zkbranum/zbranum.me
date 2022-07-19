@@ -1,0 +1,33 @@
+.portfolio-main {
+	margin: 120px 100px 50px 100px;
+	Background-color: rgb(64,149,150);
+	box-shadow: 6px 10px gray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+}
+
+h3 {
+	margin-top: 50px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-family:'Lobster', cursive;
+}
+
+.zbranum-me {
+	width: 400px;
+	height: 150px;
+	border: none;
+}
+
+.zbranum-me-button:hover{
+	background-color: rgb(100,100,100);
+	color: white;
+}
+
+.zbranum-me-button:active{
+	box-shadow: 0 5px gray;
+	transform: translateY(4px);

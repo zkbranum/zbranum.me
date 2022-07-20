@@ -1,0 +1,61 @@
+.books-main {
+	margin: 120px 100px 50px 100px;
+	Background-color: rgb(64,149,150);
+	box-shadow: 6px 10px gray;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-size: 20px;
+}
+
+h3 {
+	margin-top: 50px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	font-family:'Lobster', cursive;
+}
+
+.book-list {
+	border: 1px solid black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+.web-design p {
+	padding-left: 25px;
+}
+
+.weblink {
+	text-decoration: none;
+	color: rgb(100,100,100);
+	cursor: pointer;
+	transition: 0.15s;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid rgb(100,100,100);
+	background-color: white;
+	margin-right: 10px;
+	height: 30px;
+}
+
+.weblink:hover {
+	background-color: rgb(100,100,100);
+	color: white;
+}
+
+.weblink:active {
+	box-shadow: 0 5px gray;
+	transform: translateY(4px);
+}
+
+.zbranum-me {
+	width: 400px;
+	height: 115px;
+	border: none;
+}

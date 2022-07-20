@@ -32,6 +32,11 @@ h3 {
 	text-align: center;
 
 }
+
+.book-list-image {
+	margin-right: 20px;
+}
+
 .book-list-info {
 	padding-left: 25px;
 }

@@ -17,9 +17,14 @@ h3 {
 	font-family:'Lobster', cursive;
 }
 
+.reading-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
 .book-list {
-	border: 1px solid black;
-	border-radius: 10px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -27,7 +32,7 @@ h3 {
 	text-align: center;
 
 }
-.web-design p {
+.book-list-info {
 	padding-left: 25px;
 }
 

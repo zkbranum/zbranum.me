@@ -17,17 +17,45 @@ h3 {
 	font-family:'Lobster', cursive;
 }
 
-.zbranum-me {
-	width: 400px;
-	height: 150px;
-	border: none;
+.web-design {
+	border: 1px solid black;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+.web-design p {
+	padding-left: 25px;
 }
 
-.zbranum-me-button:hover{
+.weblink {
+	text-decoration: none;
+	color: rgb(100,100,100);
+	cursor: pointer;
+	transition: 0.15s;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid rgb(100,100,100);
+	background-color: white;
+	margin-right: 10px;
+	height: 30px;
+}
+
+.weblink:hover {
 	background-color: rgb(100,100,100);
 	color: white;
 }
 
-.zbranum-me-button:active{
+.weblink:active {
 	box-shadow: 0 5px gray;
 	transform: translateY(4px);
+}
+
+.zbranum-me {
+	width: 400px;
+	height: 115px;
+	border: none;
+}
